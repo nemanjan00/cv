@@ -831,7 +831,7 @@ exports = module.exports = __webpack_require__(0)();
 
 
 // module
-exports.push([module.i, "body {\n  font-family: Roboto;\n}\nh1 {\n  font-size: 1cm !important;\n  font-weight: 500;\n  text-transform: uppercase;\n  margin: 0px;\n}\nh2 {\n  font-size: 0.75cm !important;\n  font-weight: 300;\n  color: blue;\n  margin: 0px;\n}\n", ""]);
+exports.push([module.i, "body {\n  font-family: Roboto;\n}\nh1 {\n  font-size: 1cm !important;\n  font-weight: 500;\n  text-transform: uppercase;\n  margin: 0px;\n}\nh2 {\n  font-size: 0.75cm !important;\n  font-weight: 300;\n  color: blue;\n  margin: 0px;\n}\nh3 {\n  font-size: 0.6cm !important;\n  font-weight: 300;\n  color: blue;\n  margin: 0px;\n}\n", ""]);
 
 // exports
 
@@ -903,7 +903,7 @@ exports = module.exports = __webpack_require__(0)();
 
 
 // module
-exports.push([module.i, ".profile-picture {\n  border-radius: 50%;\n  border-width: 1px;\n  border-style: solid;\n  border-color: #000;\n  width: 100%;\n}\n.profile-picture {\n  border-color: #3D3E56;\n}\npage {\n  padding: 60px;\n  background-color: #3D3E56;\n}\nbody {\n  color: #F4F4F4;\n}\nh1 {\n  color: #22B4D8;\n}\nh2 {\n  color: #9DD2E0;\n}\n.panel-default {\n  background-color: #156496;\n  border-color: #156496;\n}\n.fa {\n  margin-right: 10px;\n}\n", ""]);
+exports.push([module.i, ".profile-picture {\n  border-radius: 50%;\n  border-width: 1px;\n  border-style: solid;\n  border-color: #000;\n  width: 100%;\n}\n.profile-picture {\n  border-color: #3D3E56;\n}\npage {\n  padding: 60px;\n  background-color: #3D3E56;\n}\nbody {\n  color: #F4F4F4;\n}\nh1 {\n  color: #22B4D8;\n}\nh2 {\n  color: #9DD2E0;\n}\n.panel-heading > h2 {\n  color: #156496;\n}\nh3 {\n  color: #9DD2E0;\n}\n.panel-default {\n  background-color: #156496;\n  border-color: #156496;\n}\n.fa {\n  margin-right: 10px;\n}\n", ""]);
 
 // exports
 
