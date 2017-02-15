@@ -2260,6 +2260,10 @@ ripemd160@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/ripemd160/-/ripemd160-1.0.1.tgz#93a4bbd4942bc574b69a8fa57c71de10ecca7d6e"
 
+"roboto@https://github.com/FontFaceKit/roboto.git#0e41bf923e2599d651084eece345701e55a8bfde":
+  version "1.1.0"
+  resolved "https://github.com/FontFaceKit/roboto.git#0e41bf923e2599d651084eece345701e55a8bfde"
+
 sax@~1.2.1:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.2.tgz#fd8631a23bc7826bef5d871bdb87378c95647828"

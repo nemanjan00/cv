@@ -31,6 +31,7 @@
     "font-awesome": "^4.7.0",
     "less": "^2.7.2",
     "less-loader": "^2.2.3",
+    "roboto": "https://github.com/FontFaceKit/roboto.git#0e41bf923e2599d651084eece345701e55a8bfde",
     "style-loader": "^0.13.1",
     "webpack": "^2.2.1",
     "webpack-livereload-plugin": "^0.10.0"
