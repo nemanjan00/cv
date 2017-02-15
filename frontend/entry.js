@@ -18,3 +18,8 @@ require("font-awesome/css/font-awesome.css");
 
 require("./less/fonts.less");
 
+// CV
+
+require("./less/cv.less");
+
+
