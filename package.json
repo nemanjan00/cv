@@ -1,0 +1,38 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "My CV",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "monitor": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nemanjan00/cv.git"
+  },
+  "keywords": [
+    "CV"
+  ],
+  "author": "Nemanja Nedeljković <nemanjan00@gmail.com> (https://nemanja.top/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nemanjan00/cv/issues"
+  },
+  "homepage": "https://github.com/nemanjan00/cv#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "css-loader": "^0.26.1",
+    "file-loader": "^0.10.0",
+    "fontawesome": "^4.7.0",
+    "less": "^2.7.2",
+    "less-loader": "^2.2.3",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.1",
+    "webpack-livereload-plugin": "^0.10.0"
+  }
+}
