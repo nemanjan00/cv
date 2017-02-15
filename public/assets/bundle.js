@@ -509,10 +509,58 @@ module.exports = __webpack_require__.p + "fee66e712a8a08eef5805a46892932ad.woff"
 
 __webpack_require__(3);
 
+// Bootstrap grid
+
+__webpack_require__(17);
+
 // Font awesome
 
 __webpack_require__(2);
 
+
+
+/***/ }),
+/* 13 */,
+/* 14 */,
+/* 15 */,
+/* 16 */,
+/* 17 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(18);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, {});
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!./../../node_modules/css-loader/index.js!./../../node_modules/less-loader/index.js!./page.less", function() {
+			var newContent = require("!!./../../node_modules/css-loader/index.js!./../../node_modules/less-loader/index.js!./page.less");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 18 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)();
+// imports
+
+
+// module
+exports.push([module.i, "body {\n  background: #cccccc;\n}\npage {\n  background: white;\n  display: block;\n  margin: 0 auto;\n  margin-bottom: 0.5cm;\n  box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);\n}\npage[size=\"A4\"] {\n  width: 21cm;\n  height: 29.7cm;\n}\npage[size=\"A4\"][layout=\"portrait\"] {\n  width: 29.7cm;\n  height: 21cm;\n}\npage[size=\"A3\"] {\n  width: 29.7cm;\n  height: 42cm;\n}\npage[size=\"A3\"][layout=\"portrait\"] {\n  width: 42cm;\n  height: 29.7cm;\n}\npage[size=\"A5\"] {\n  width: 14.8cm;\n  height: 21cm;\n}\npage[size=\"A5\"][layout=\"portrait\"] {\n  width: 21cm;\n  height: 14.8cm;\n}\n@media print {\n  body,\n  page {\n    margin: 0;\n    box-shadow: 0;\n  }\n}\n", ""]);
+
+// exports
 
 
 /***/ })
