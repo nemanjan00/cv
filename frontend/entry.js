@@ -1,12 +1,14 @@
-// Bootstrap grid
+// Bootstrap
 
-require("./less/bootstrap-grid.less");
+//require("./less/bootstrap-grid.less");
+
+require("bootstrap/dist/css/bootstrap.css");
 
 // Roboto
 
 require("roboto/roboto.css");
 
-// Bootstrap grid
+// Page
 
 require("./less/page.less");
 
