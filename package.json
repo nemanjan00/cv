@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/nemanjan00/cv#readme",
   "dependencies": {
-    "express": "^4.14.1"
+    "express": "^4.19.2"
   },
   "devDependencies": {
     "bootstrap": "^3.3.7",
